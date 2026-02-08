@@ -1,0 +1,113 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(254, 233, 208);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header{
+    background-image: linear-gradient(to top, green, rgb(0, 178, 0));
+    text-shadow: 1px 1px 4px black;
+    height: 120px;
+    padding: 25px;
+}
+
+header > nav {margin-top: 75px;}
+
+header > nav > a{
+    text-decoration: none;
+    color: white;
+    font-size: bold;
+    margin-right: 20px;
+}
+
+header > nav > a:hover{
+    background-color: rgb(15, 157, 15);
+    padding: 15px;
+    border-radius: 3px;
+}
+
+header > h1{
+    text-align: center;
+    color: white;
+}
+
+header > p{
+    text-align: center;
+    color: white;
+}
+
+main{
+    background-color: white;
+    width: 850px;
+    padding: 15px;
+    margin: auto;
+    text-align: justify;
+}
+
+main > section > article > h2 {
+    font-family: 'Android';
+    margin-top: 25px;
+    padding: 3px;
+    background-image: linear-gradient(to right, rgb(47, 231, 47), white);
+    color: rgb(0, 108, 0);
+}
+
+main > section > article > p {text-indent: 30px;}
+
+main > section > article > picture{
+    display: block;
+    margin: auto;
+}
+
+#video{background-color: green;}
+
+.link{
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.54), white);
+    color: green;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.link > a {
+    text-decoration: none;
+}
+
+#link{
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.54), white);
+    color: green;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#link > a {
+    text-decoration: none;
+}
+
+#extra{
+    background-color: rgb(201, 250, 201);
+    border-radius: 7px;
+}
+
+
+#extra > ul {
+    text-decoration: none;
+}
+
+footer{
+    background-color: green;
+    padding: 7px;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,149 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Fair";
+    src: url('fonte/Fair\ Prosper.ttf') format('truetype');
+    font-weight: normal;
+}
+
+:root{
+    --cor1: rgb(100, 100, 100);
+    --cor2: rgb(142, 5, 15);
+    --cor3: rgb(9, 13, 79);
+    --cor4: rgb(245, 154, 54);
+    --cor5: rgb(0, 100, 0);
+
+    --fonte-titulo: "Fair", cursive;
+    --fonte-conteudo: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: var(--cor1);
+    font-family: var(--fonte-conteudo);
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.717);
+    color: rgba(255, 255, 255, 0.722);
+    font-family: var(--fonte-titulo);
+    min-height: 180px;
+    text-align: center; 
+}
+
+header h1{
+    font-size: 3em;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.33);
+}
+
+header p{
+    font-family: var(--fonte-conteudo);
+    font-size: 1.1em;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 30px;
+    text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.57);
+}
+
+nav{
+    background-color: var(--cor3);
+    padding: 15px;
+    box-shadow: 0px 4px 5px rgba(255, 255, 255, 0.154);
+
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--cor4);
+    margin-right: 15px;
+}
+
+nav a:hover{
+    text-shadow: 0px 0px 5px white;
+}
+
+main{
+    margin: auto;
+    max-width: 1020px;
+    min-width: 200px;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.554);
+    padding: 10px;
+    text-align: justify;
+    line-height: 1.6em;
+    margin-bottom: 10px;
+}
+
+main h2{
+    padding: 15px;
+    text-indent: 35px;
+    font-size: 1.6em;
+}
+
+main p{
+    padding: 15px;
+    text-indent: 30px;
+    font-size: 1.1em;
+}
+
+main a{
+    text-decoration: none;
+    color: var(--cor5);
+    background-color: var(--cor4);
+    padding: 2px;
+    border-radius: 1px;
+}
+
+main a:hover{
+    color: var(--cor3);
+    text-decoration: underline;
+}
+ 
+main img{
+    min-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+/* main .img-grande{
+    min-width: 50px;
+    display: block;
+    margin: auto;
+
+} */
+
+footer{
+    background-color: var(--cor4);
+    padding: 20px;
+    color: white;
+    text-indent: 30px;
+}
+
+footer h3{
+    font-size: 1.5em;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer a:hover{
+    color: var(--cor3);
+}
+

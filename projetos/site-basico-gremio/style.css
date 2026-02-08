@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* Fontes, configrações */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: "História";
+    src: url("fonte/HuLi-Regular.ttf") format('truetype');
+    font-style: normal;
+}
+
+:root{
+    --cor1: #b2e0f7;
+    --cor2: #5BA6DB;
+    --cor3: #282D36;
+    --cor4: #FEC459;
+
+    --fonte-texto: "Funnel Sans", sans-serif;
+    --fonte-titulo: "História", 'cursive';
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Página*/
+
+body
+{
+    background-color: #b2e0f7;
+    font-family: var(--fonte-texto);
+    font-weight: lighter;
+}
+
+header{
+    max-height: 350px;
+    max-width: 600px;
+    background-image: image('');
+}
+
+
+nav{
+    background-color: #5BA6DB;
+    padding: 15px;
+    margin: -4px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.361);
+    width: 100%;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor4);
+    margin-right: 30px;
+}
+
+nav a:hover{
+    background-color: #b2e0f7;
+    color: #5BA6DB;
+    padding: 15px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+main{
+    background-color: white;
+    max-width: 1020px;
+    min-width: 200px;
+    padding: 13px;
+    margin: auto;
+    margin-top: 5px;
+    box-shadow: 3px 1px 7px rgba(0, 0, 0, 0.361);
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+main h1{
+    margin-top: 15px;
+    padding: 5px 5px;
+    font-family: var(--fonte-titulo);
+    font-size: 3em;
+}
+
+main h2{
+    margin-top: 30px;
+    padding: 5px 5px;
+    font-family: var(--fonte-titulo);
+    font-size: 2em;
+}
+
+main p{
+    padding: 15px 0px;
+}
+
+main img{
+    width: 100%;
+}
+
+footer{
+    background-color: var(--cor3);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 13px;
+    padding: 3px;
+}
