@@ -1,0 +1,20 @@
+body{
+    background-image: url('../imagens/wallpaper002.jpg');
+    background-size: auto;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+header{
+    background-color: transparent;
+}
+nav{
+    background-color: transparent;
+}
+main{
+    max-width: 800px;
+    min-width: 200px;
+    margin: auto;
+}
+main p{
+    width: 100%;
+}

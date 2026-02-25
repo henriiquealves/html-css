@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap'); /*h1*/
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap'); /*h2*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap'); /*p*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor1: #D8E6CD;
+    --cor2: #B6B091;
+    --cor3: #827070;
+    --cor4: #8EA89C;
+    --cor5: #889996;
+    --cor6: #c7db9c;
+
+    --fonte-titulo: "Rubik Mono One", Sans-Serif;
+    --fonte-subtitulo: "Zalando", Sans-Serif;
+    --fonte-conteudo: "Roboto Mono", Sans-Serif;
+}
+
+
+/*Links no conteúdo*/
+.aulas{
+    text-decoration: none;
+    color: black;
+}
+.aulas:hover{
+    text-decoration: underline;
+}
+
+/*Cabeçalho*/
+header{
+    background-color: var(--cor1);
+    padding: 50px;
+    max-width: 100%;
+    min-width: 200px;
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    color: rgba(0, 0, 0, 0.704);
+    text-shadow: 0px 0px 3px rgb(56, 53, 53);
+}
+nav{
+    font-family: var(--fonte-conteudo);
+    font-size: 1em;
+    background-color: var(--cor1);
+    padding: 10px;
+    max-width: 100%;
+    min-width: 200px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+}
+nav a:hover{
+    text-shadow: 0px 0px 1px black;
+    font-size: 1.05em;
+}
+
+/*Aplicando Imagens de Fundo*/
+#fundo{
+    background-color: var(--cor2);
+    padding: 15px;
+    min-height: 300px;
+    max-width: 100%;
+    min-width: 200px;
+
+}
+#fundo h2{
+    font-family: var(--fonte-subtitulo);
+    font-size: 1.7em;
+    margin-bottom: 10px;
+    color: white;
+}
+#fundo p{
+    font-family: var(--fonte-conteudo);
+    font-size: 1em;
+    line-height: 2em;
+    color: white;
+}
+#fundo .img-fundo{
+    border: 1px rgba(0, 0, 0, 0.319);
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 20px 30px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.344);
+}
+#fundo #img-fundo1{
+    background-image: url('../imagens/wallpaper002.jpg');
+    background-size: 150%;
+    background-position: top left;
+}
+#fundo #img-fundo2{
+    background-image: url('../imagens/wallpaper005.jpg');
+    background-size: 210%;
+    background-position: top left;
+}
+#fundo #img-fundo3{
+    background-image: url('../imagens/wallpaper006.jpg');
+    background-size: 150%;
+    background-position: top left;
+}
+
+
+/*Tamanhos diferentes para fazer o cover de fundo*/
+#tamanho{
+    background-color: var(--cor3);
+    padding: 15px;
+    min-height: 300px;
+    max-width: 100%;
+    min-width: 200px;
+}
+#tamanho h2{
+    font-family: var(--fonte-subtitulo);
+    font-size: 1.7em;
+    margin-bottom: 10px;
+    color: white;
+}
+#tamanho p{
+    font-family: var(--fonte-conteudo);
+    font-size: 1em;
+    line-height: 2em;
+    color: white;
+}
+
+
+/*Posições diferentes para a imagem*/
+#posicoes{
+    background-color: var(--cor4);
+    padding: 15px;
+    min-height: 300px;
+    max-width: 100%;
+    min-width: 200px;
+}
+#posicoes h2{
+    font-family: var(--fonte-subtitulo);
+    font-size: 1.7em;
+    margin-bottom: 10px;
+    color: white;
+}
+#posicoes p{
+    font-family: var(--fonte-conteudo);
+    font-size: 1em;
+    line-height: 2em;
+    color: white;
+}
+
+
+/*Imagens Repetidas*/
+#repetidas{
+    background-color: var(--cor5);
+    padding: 15px;
+    min-height: 300px;
+    max-width: 100%;
+    min-width: 200px;
+}
+#repetidas h2{
+    font-family: var(--fonte-subtitulo);
+    font-size: 1.7em;
+    margin-bottom: 10px;
+    color: white;
+}
+#repetidas p{
+    font-family: var(--fonte-conteudo);
+    font-size: 1em;
+    line-height: 2em;
+    color: white;
+}
+
+
+/*Attatchment*/
+#attatchment{
+    background-color: var(--cor6);
+    padding: 15px;
+    min-height: 300px;
+    max-width: 100%;
+    min-width: 200px;
+}
+#attatchment h2{
+    font-family: var(--fonte-subtitulo);
+    font-size: 1.7em;
+    margin-bottom: 10px;
+    color: white;
+}
+#attatchment p{
+    font-family: var(--fonte-conteudo);
+    font-size: 1em;
+    line-height: 2em;
+    color: white;
+}
+
+
+/*Footer*/
+footer{
+    background-color: #464242;
+    padding: 5px;
+    text-align: center;
+    font-family: var(--fonte-conteudo);
+    font-size: 0.8em;
+    color: white;
+}
