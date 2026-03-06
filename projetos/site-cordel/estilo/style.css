@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Erica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+:root{
+    --fonte-titulo: "Erica One", sans-serif;
+    --fonte-subtítulo: Arial, Helvetica, sans-serif;
+    --fonte-conteúdo: "Pangolin", cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Header*/
+header{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    min-height: 150px;
+    max-width: 100%;
+    min-width: 200px;
+    text-align: center;
+}
+header h1{
+    padding-top: 25px;
+    padding-bottom: 5px;
+    font-family: var(--fonte-titulo);
+    font-size: 3em;
+}
+header p{
+    font-family: var(--fonte-subtítulo);
+    font-size: 0.8em;
+}
+header span{
+    font-style: italic;
+}
+
+/*Poema*/
+.verso{
+    min-height: 300px;
+    font-size: 1.3em;
+    font-family: var(--fonte-conteúdo);
+    line-height: 2em;
+    font-weight: 600;
+    padding: 20px 40px;
+}
+
+/*Poema Imagens 1*/
+#verso-imagem1{
+    min-height: 400px;
+    background-image: url('../imagens/background001.jpg');
+    background-position: left top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#verso-imagem1 p{
+    font-family: var(--fonte-conteúdo);
+    color: white;
+    font-size: 1.3em;
+    line-height: 2em;
+    padding: 20px 40px;
+    background-color: rgba(0, 0, 0, 0.194);
+    width: 250px;
+    min-height: 300px;
+
+    transform: translate(0px, 25px);
+}
+
+/*Poema Imagens 2*/
+#verso-imagem2{
+    min-height: 400px;
+    background-image: url('../imagens/background002.jpg');
+    background-position: left top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#verso-imagem2 p{
+    font-family: var(--fonte-conteúdo);
+    color: white;
+    font-size: 1.3em;
+    line-height: 2em;
+    padding: 20px 40px;
+    background-color: rgba(0, 0, 0, 0.411);
+    width: 250px;
+    min-height: 300px;
+
+    transform: translate(0px, 25px);
+}
+
+footer{
+    background-color: rgb(20, 20, 20);;
+    padding: 4px;
+    text-align: center;
+    color: white;
+    font-family: var(--fonte-subtítulo);
+}
