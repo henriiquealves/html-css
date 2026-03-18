@@ -27,7 +27,12 @@ header h1{
     padding-top: 50px;
     font-family: var(--fonte-titulo);
     font-variant: small-caps;
-    font-size: 3em;
+    font-size: 8vw; /*Ou ao invés de 'em', pode ser 'vw'*/
+}
+
+header p{
+    font-family: var(--fonte-paralelo);
+    padding-bottom: 50px;
 }
 
 a{
@@ -40,17 +45,13 @@ a:hover{
     text-decoration: underline;
 }
 
-header p{
-    font-family: var(--fonte-paralelo);
-    padding-bottom: 50px;
-}
 
 section{
     background-color: white;
     color: black;
     font-family: var(--fonte-conteudo);
     line-height: 2em;
-    font-size: 1em;
+    font-size: 3.5vw; /*Pode ser 'em' também, mas 'vw' a letra aumenta de acordo com o tamanho da tela ou diminui*/
     padding-left: 30px;
 
     padding-top: 10vh;
@@ -64,7 +65,8 @@ section{
 
 .img-fundo p{
     background-color: rgba(0, 0, 0, 0.54);
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
 }
 
 footer{
