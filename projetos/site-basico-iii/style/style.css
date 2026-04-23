@@ -1,0 +1,102 @@
+@charset "UTF-8";
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Martian+Mono:wght@100..800&family=Quicksand:wght@300..700&display=swap'); 
+/*
+conteúdo
+.quicksand-<uniquifier> {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Martian+Mono:wght@100..800&display=swap');
+/*
+Menu
+.commissioner-<uniquifier> {
+  font-family: "Commissioner", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "FLAR" 0,
+    "VOLM" 0;
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap');
+/*
+título
+.martian-mono-<uniquifier> {
+  font-family: "Martian Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*/
+:root{
+  --titulo: "Martian Mono", monospace;
+  --menu: "Commissioner", sans-serif;
+  --conteúdo: "Quicksand", sans-serif;
+}
+
+body{
+  background-color: #efe2c5;
+}
+
+header{
+  background-image: url('../imagens/folhagem02.jpg');
+  background-position: right center;
+  background-size: cover;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.316);
+}
+
+header h1{
+  font-family: var(--titulo);
+  font-size: 4em;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+
+
+header nav a{
+  font-size: 1.1em;
+  text-decoration: none;
+  color: white;
+  padding-left: 30px;
+  font-family: var(--menu);
+}
+
+header nav a:hover{
+  text-decoration: overline;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.327);
+}
+
+main{
+  width: 700px;
+  background-color: white;
+  margin: auto;
+  text-align: justify;
+  padding: 15px;
+  text-indent: 20px;
+  line-height: 1.4em;
+}
+
+#borboleta{
+  display: flex;
+}
+#borboleta picture{
+  display: inline-flex;
+}
+#borboleta p{
+  display: ;
+}
