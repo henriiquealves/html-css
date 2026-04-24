@@ -57,16 +57,30 @@ section{
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
+section p{
+    padding-bottom: 40px;
+}
 
 .img-fundo{
     background-color: gray;
     color: white;
+    box-shadow: inset 1px 1px 3px 0.5px black;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .img-fundo p{
-    background-color: rgba(0, 0, 0, 0.54);
+    background-color: rgba(0, 0, 0, 0.108);
     display: inline-block;
     padding: 5px;
+}
+
+#img-fundo1{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+#img-fundo2{
+    background-image: url('../imagens/background002.jpg');
 }
 
 footer{
