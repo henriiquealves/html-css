@@ -84,6 +84,7 @@ header nav a:hover{
 main{
   width: 700px;
   background-color: white;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.401);
   margin: auto;
   text-align: justify;
   padding: 15px;
@@ -91,12 +92,84 @@ main{
   line-height: 1.4em;
 }
 
-#borboleta{
-  display: flex;
+section{
+  font-family: var(--conteúdo);
+  line-height: 1.5em;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
-#borboleta picture{
-  display: inline-flex;
+
+#borboleta h2{
+  padding: 20px;
+  background-image: url('../imagens/borboleta-02.jpg');
+  background-position: right center;
+  background-size: cover;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.401);
+  margin-right: -15px;
+  margin-left: -15px;
+  font-family: var(--titulo);
+  color: rgba(255, 255, 255, 0.91);
 }
+
 #borboleta p{
-  display: ;
+  font-family: var(--conteúdo);
+  line-height: 1.5em;
+}
+
+#formiga h2{
+  padding: 20px;
+  background-image: url('../imagens/formiga-02.jpg');
+  background-position: right center;
+  background-size: cover;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.401);
+  margin-left: -15px;
+  margin-right: -15px;
+  font-family: var(--titulo);
+  color: rgba(255, 255, 255, 0.91);
+}
+#formiga p{
+  font-family: var(--conteúdo);
+  line-height: 1.5em;
+}
+
+#besouro h2{
+  padding: 20px;
+  background-image: url('../imagens/besouro-02.jpg');
+  background-position: right center;
+  background-size: cover;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.401);
+  margin-right: -15px;
+  margin-left: -15px;
+  font-family: var(--titulo);
+  color: rgba(255, 255, 255, 0.91);
+}
+
+#besouro p{
+  font-family: var(--conteúdo);
+  line-height: 1.5em;
+}
+
+#abelha h2{
+  padding: 20px;
+  background-image: url('../imagens/abelha-02.jpg');
+  background-position: right center;
+  background-size: cover;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.401);
+  margin-right: -15px;
+  margin-left: -15px;
+  font-family: var(--titulo);
+  color: rgba(255, 255, 255, 0.91);
+}
+#abelha p{
+  font-family: var(--conteúdo);
+  line-height: 1.5em;
+}
+
+footer{
+  padding: 2px;
+  font-size: 0.9em;
+  background-color: rgba(52, 134, 52, 0.768);
+  font-family: var(--conteúdo);
+  color: white;
+  text-align: center;
 }
