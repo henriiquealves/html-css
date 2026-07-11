@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'History';
+    src: url('../fonte/HuLi-Regular.ttf') format('truetype');
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor1: #b2e0f7;
+    --cor2: #5BA6DB;
+    --cor3: #282D36;
+    --cor4: #FEC459;
+
+    --fonte-texto: "Funnel Sans", sans-serif;
+    --font-titulo: 'History', 'cursive';
+}
+
+body, html{
+    min-height: 100vh;
+}
+
+header{
+    background-color: var(--cor3);
+    text-align: center;
+    color: var(--cor1);
+}
+
+header h1{
+    padding-top: 40px;
+    font-size: 4vw;
+    font-variant: small-caps;
+    font-family: var(--fonte-titulo);
+}
+
+header p{
+    padding-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header a{
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+section{
+    min-height: 300px;
+    padding: 20px 40px;
+    font-size: 3vw;
+    font-family: var(--fonte-texto);
+    line-height: 2em;
+}
+
+#img01{
+    min-height: 400px;
+    background-image: url('../imagens/bandeira-gremio.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#img01 p{
+    background-color: #5ba6db66;
+    font-size: 1.3em;
+    line-height: 2em;
+    padding: 20px 40px;
+    
+}
+
+#img02 {
+    min-height: 400px;
+    background-image: url('../imagens/torcida-gremio.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#img02 p{
+    
+}
+
+#img03{
+    min-height: 400px;
+    background-image: url('../imagens/eurico-lara.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
