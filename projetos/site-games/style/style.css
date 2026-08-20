@@ -1,0 +1,133 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+ --cor-fundo: #0d0e15;      /* Azul escuro quase preto */ 
+--cor-paineis: #1b1d2a;    /* Para caixas, seções e artigos */
+ --cor-texto: #ffffff;      /* Texto principal */ 
+--cor-ciano: #00f0ff;      /* Links, bordas e destaques */ 
+--cor-magenta: #ff007f;    /* Botões e títulos importantes */ 
+--cor-amarelo: #f0f14e;    /* Detalhes e avisos */ }
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor-fundo);
+}
+
+h1, h2, p
+{color:var(--cor-texto);}
+
+span
+{color: rgb(202, 25, 25);}
+
+header{
+    background-image: url("../imagens/banner-2.png");
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+}
+
+/*Links navegação*/
+header nav{
+    background-image: url('../imagens/logo-2.png');
+    background-repeat: no-repeat;
+    margin: 10px 55px;
+    height: 39px;
+}
+
+header nav a{
+    color: var(--cor-texto);
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+    color: var(--cor-magenta);
+}
+
+/*Título e subtítulo*/
+header h1{
+    padding-top: 5%;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 3.2em;
+}
+
+header h3{
+    color: var(--cor-texto);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 370px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+/* Botão Explorar Jogos */
+header #explorar{
+    background-color: #ff007f;
+    border-radius: 3px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    width: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor-texto);
+}
+
+header #explorar:hover
+{padding: 11px;}
+
+/*Saiba Mais*/
+#saiba-mais{
+    background-image: url('/projetos/site-games/imagens/sobre-gamehub-2.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 30px;
+    height: 300px;
+    width: 1580px;
+}
+
+#saiba-mais h2
+{margin: 50px 20px 20px}
+
+#saiba-mais p{
+    display: inline-block;
+    width: 550px;
+    margin: 0px 20px 20px;
+    font-size: 1.5em;
+}
+
+#saiba-mais a{
+    display: block;
+    padding: 10px;
+    margin: 0px 20px;
+    width: 105px;
+    background-color: var(--cor-fundo);
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.361);
+    border-radius: 3px;
+    color: var(--cor-texto);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#saiba-mais a:hover{
+    padding: 11px;
+    background-color: #1a1b28;
+}
