@@ -95,7 +95,7 @@ header #explorar:hover
 
 /*Saiba Mais*/
 #saiba-mais{
-    background-image: url('/projetos/site-games/imagens/sobre-gamehub-2.png');
+    background-image: url('/projetos/site-games/imagens/sobre-gamehub.png');
     background-repeat: no-repeat;
     background-position: right;
     padding: 30px;
@@ -104,7 +104,10 @@ header #explorar:hover
 }
 
 #saiba-mais h2
-{margin: 50px 20px 20px}
+{
+    margin: 50px 20px 20px;
+    text-transform: uppercase;
+}
 
 #saiba-mais p{
     display: inline-block;
@@ -130,4 +133,32 @@ header #explorar:hover
 #saiba-mais a:hover{
     padding: 11px;
     background-color: #1a1b28;
+}
+
+/*Gêneros*/
+#generos
+{padding: 30px;}
+
+#generos h2{
+    margin: 50px 20px 20px;
+    text-transform: uppercase;
+}
+
+#generos main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#generos h2{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#generos img
+{border-radius: 5%;}
+
+/*Últimas Notícias*/
+#noticias{
+    padding: 30px;
 }
