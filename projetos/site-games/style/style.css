@@ -103,6 +103,7 @@ header #explorar:hover
     width: 1580px;
 }
 
+/* Título e apresentação */
 #saiba-mais h2
 {
     margin: 50px 20px 20px;
@@ -116,6 +117,7 @@ header #explorar:hover
     font-size: 1.5em;
 }
 
+/* Botão Saiba Mais */
 #saiba-mais a{
     display: block;
     padding: 10px;
@@ -159,6 +161,54 @@ header #explorar:hover
 {border-radius: 5%;}
 
 /*Últimas Notícias*/
-#noticias{
+.categoria{
+    padding: 5px;
+    background-color: var(--cor-fundo);
+    width: 111px;
+    border-radius: 4px;
+    border:1px solid white;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--cor-texto);
+}
+
+#noticias
+{padding: 30px;}
+
+/* Título */
+main h2{
+    width: 100%;
+    text-transform: uppercase;
+    margin: 50px 20px 20px;
+}
+
+/* Categoria: Jogo, industria, rumor */
+h4{
+    color: var(--cor-texto);
+    text-transform: uppercase;
+    margin: 15px;
+}
+
+/* Data */
+div main article p{
+    margin: 15px;
+    color: #555555;
+}
+
+/* Caixa da notícia */
+main{
     padding: 30px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+article{
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    width: 370px;
+    height: 350px;
+    align-content: center;
 }
